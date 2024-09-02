@@ -1,4 +1,3 @@
-
 def g_pw(n):
     result=''
     for q in range(1,n):
@@ -10,4 +9,3 @@ n = int(input('от 3 до 20'))
 if 3 <= n <= 20:
     pw = g_pw(n)
     print(f'Пароль  {n}: {pw}')
-
